@@ -5,9 +5,11 @@ import label.ClasseJanelas;
 public class Exe18 {
 
     public static void main(String[] args) {
-
-        String[] dataSplit;
+        
         ClasseJanelas label = new ClasseJanelas();
+        
+        String[] dataSplit;
+        
         label.setTexto("Informe uma data(dd/mm/aaaa): ");
         String data = label.inputDialog();
 

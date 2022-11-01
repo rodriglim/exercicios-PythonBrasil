@@ -7,6 +7,7 @@ public class Exe01 {
     public static void main(String[] args) {
 
         ClasseJanelas label = new ClasseJanelas();
+        
         label.setTexto("1ª número: ");
         int n1 = Integer.valueOf(label.inputDialog());
         label.setTexto("2ª número: ");

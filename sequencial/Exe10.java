@@ -5,6 +5,7 @@ import label.ClasseJanelas;
 public class Exe10 {
 
     public static void main(String[] args) {
+        
         ClasseJanelas label = new ClasseJanelas();
 
         label.setTexto("Informe a temperatura em Celsius: ");

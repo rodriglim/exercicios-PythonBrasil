@@ -7,6 +7,7 @@ public class Exe11 {
     public static void main(String[] args) {
 
         ClasseJanelas label = new ClasseJanelas();
+        
         int aumento = 0;
 
         label.setTexto("Informe o salário do colaborador:R$ ");

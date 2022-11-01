@@ -5,6 +5,7 @@ import label.ClasseJanelas;
 public class Exe16 {
 
     public static void main(String[] args) {
+        
         ClasseJanelas label = new ClasseJanelas();
 
         label.setTexto("Digite o valor de a: ");

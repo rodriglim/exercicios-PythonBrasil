@@ -5,8 +5,10 @@ import label.ClasseJanelas;
 public class Exe15 {
     
     public static void main(String[] args) {
-        final int IR = 11, INSS = 8, SINDICATO = 5;
+        
         ClasseJanelas label = new ClasseJanelas();
+        
+        final int IR = 11, INSS = 8, SINDICATO = 5;
         
         label.setTexto("Salário-Hora:R$ ");
         double salarioHora = Double.parseDouble(label.inputDialog());

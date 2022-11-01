@@ -5,7 +5,9 @@ import label.ClasseJanelas;
 public class Exe04 {
 
     public static void main(String[] args) {
+        
         ClasseJanelas label = new ClasseJanelas();
+        
         String result;
 
         label.setTexto("Informe uma letra");

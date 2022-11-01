@@ -5,8 +5,10 @@ import label.ClasseJanelas;
 public class Exe06 {
 
     public static void main(String[] args) {
-        int maior;
+        
         ClasseJanelas label = new ClasseJanelas();
+        
+        int maior;
 
         label.setTexto("1ª número inteiro: ");
         int numero1 = Integer.parseInt(label.inputDialog());

@@ -7,6 +7,7 @@ public class Exe03 {
     public static void main(String[] args) {
         
         ClasseJanelas label = new ClasseJanelas();
+        
         String sexo;
         label.setTexto("Digite F ou M: ");
         String letra = String.valueOf(label.inputDialog()).toUpperCase();

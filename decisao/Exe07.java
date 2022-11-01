@@ -8,6 +8,7 @@ public class Exe07 {
     public static void main(String[] args) {
 
         ClasseJanelas label = new ClasseJanelas();
+        
         int maior = 0, menor = 999999;
 
         label.setTexto("1ª número inteiro: ");

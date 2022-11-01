@@ -5,6 +5,7 @@ import label.ClasseJanelas;
 public class Exe13 {
 
     public static void main(String[] args) {
+        
         ClasseJanelas label = new ClasseJanelas();
 
         label.setTexto("Digite sua altura: ");

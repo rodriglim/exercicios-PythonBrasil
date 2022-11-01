@@ -7,6 +7,7 @@ public class Exe12 {
     public static void main(String[] args) {
 
         ClasseJanelas label = new ClasseJanelas();
+        
         final int IR = 5, INSS = 10, FGTS = 11;
 
         label.setTexto("Informe o salário-hora:R$ ");

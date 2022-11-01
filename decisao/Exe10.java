@@ -7,6 +7,7 @@ public class Exe10 {
     public static void main(String[] args) {
 
         ClasseJanelas label = new ClasseJanelas();
+        
         label.setTexto("Informe M, V ou N");
         String letra = label.inputDialog().toUpperCase();
 

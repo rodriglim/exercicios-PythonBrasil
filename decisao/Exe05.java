@@ -5,7 +5,9 @@ import label.ClasseJanelas;
 public class Exe05 {
 
     public static void main(String[] args) {
+        
         ClasseJanelas label = new ClasseJanelas();
+        
         String fraseMedia;
 
         label.setTexto("1ª nota: ");

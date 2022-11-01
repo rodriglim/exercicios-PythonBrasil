@@ -5,10 +5,10 @@ import label.ClasseJanelas;
 public class Exe14 {
 
     public static void main(String[] args) {
-
-        final double PESOLIMITE = 50;
-        final double PRECO = 4.00;
+        
         ClasseJanelas label = new ClasseJanelas();
+        
+        final double PESOLIMITE = 50; final double PRECO = 4.00;
 
         label.setTexto("Peso do Peixe: ");
         double pesoPeixe = Double.parseDouble(label.inputDialog());

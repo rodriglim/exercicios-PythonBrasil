@@ -5,6 +5,7 @@ import label.ClasseJanelas;
 public class Exe19 {
     
     public static void main(String[] args) {
+        
         ClasseJanelas label = new ClasseJanelas();
         
         label.setTexto("Informe um número inteiro menor que 1000");
