@@ -8,6 +8,7 @@ public class Exe25 {
 
         ClasseJanelas label = new ClasseJanelas();
         int qtdPositivos = 0;
+        
         String resposta, resultado;
 
         label.setTexto("Telefonou para a vítima[S/N]?");
